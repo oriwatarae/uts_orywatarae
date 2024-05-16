@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUMAH ADAT SUMBA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="container">
+      <img src="rumah1.png" alt="Logo">
+      <h2 class="mb-4">RUMAH HANOI</h2>
+      <ul class="list-unstyled">
+        <li><a href="#home" onclick="showContent('home')">Sejarah</a></li>
+        <li><a href="#about" onclick="showContent('about')">Bagian-Bagian</a></li>
+        <li><a href="#services" onclick="showContent('services')">Fungsi</a></li>
+        <li><a href="#contact" onclick="showContent('contact')">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div id="homeContent" class="hidden">
+      <h2>APA ITU RUMAH HONAI?</h2>
+      <p>Honai atau onai merupakan rumah tradisional masyarakat Papua Pegunungan dan Papua Tengah khususnya suku Dani . 
+        Rumah honai berbentuk bulat sederhana dengan pintu kecil dan tidak dilengkapi jendela. Ada pula yang berbentuk 
+        persegi panjang, rumah jenis ini namanya Ebe'ai (Honai Perempuan).</p>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="rumah2.jpg" alt="Home Image 1" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <img src="rumah01.jpg" alt="Home Image 2" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div id="aboutContent" class="hidden">
+      <h2>Bahan dan Proses Membuat Rumah Honai</h2>
+      <p>Honai dibuat dari bahan-bahan yang seluruhnya didapat dari alam. Rumthe menjabarkan sejumlah bahan yang dibutuhkan dalam membuat honai, yaitu:</p>
+      <p>
+        - Papan cincang, yaitu papan yang ujungnya runcing seperti tombak sebagai dinding honai;
+        - Balok kayu sebagai tiang utama penyangga atap;
+        - Kayu buah sebagai rangka penutup atap honai;
+        - Lokop atau pinde, yaitu sejenis bambu kecil panjang untuk membuat alas tidur;
+        - Rumput atau alang-alang yang digunakan sebagai penutup atap honai;
+        - Tali rotan, akar pohon, atau sulur yang digunakan untuk mengikat.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="rumah2.jpg" alt="About Image 1" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div id="servicesContent" class="hidden">
+      <h2>Apa Fungsi Rumah Honai</h2>
+      <p>Pertama, rumah honai berfungsi sebagi tempat menyimpan peralatan perang dan peralatan warisan leluhur . 
+        Selain itu di rumah honai juga para anak lelaki mengajarkan tentang strategi perang. Kedua, rumah honai dijadikan tempat menyimpan umbi-umbian dan hasil ladang.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="rumah01.jpg" alt="Services Image 1" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div id="contactContent" class="hidden">
+      <h2>Contact Us</h2>
+      <p>Feel free to contact us for any inquiries.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
